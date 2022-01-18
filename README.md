@@ -21,3 +21,6 @@ Additional dependencies:
     api 'com.google.android.exoplayer:exoplayer-ui:2.12.0'
     api 'com.google.firebase:firebase-messaging:21.0.0'
     api "com.google.android.gms:play-services-location:17.1.0"
+
+
+For Jitpack private: https://docs.github.com/en/organizations/restricting-access-to-your-organizations-data/approving-oauth-apps-for-your-organization
