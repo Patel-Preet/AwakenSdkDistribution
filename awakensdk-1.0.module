@@ -10,18 +10,16 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "6.5",
-      "buildId": "5wo6zhqn7vh3xnzkp2x2aj2sku"
+      "version": "8.0"
     }
   },
   "variants": [
     {
-      "name": "releaseApiPublication",
+      "name": "releaseApiElements-published",
       "attributes": {
         "org.gradle.category": "library",
-        "org.gradle.dependency.bundling": "external",
-        "org.gradle.libraryelements": "aar",
-        "org.gradle.usage": "java-api"
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "dependencies": [
         {
@@ -35,49 +33,49 @@
           "group": "com.github.bumptech.glide",
           "module": "glide",
           "version": {
-            "requires": "4.11.0"
+            "requires": "4.16.0"
           }
         },
         {
           "group": "com.amazonaws",
           "module": "aws-android-sdk-core",
           "version": {
-            "requires": "2.19.1"
+            "requires": "2.74.0"
           }
         },
         {
           "group": "com.amazonaws",
           "module": "aws-android-sdk-sns",
           "version": {
-            "requires": "2.19.1"
+            "requires": "2.74.0"
           }
         },
         {
           "group": "com.google.android.exoplayer",
           "module": "exoplayer-dash",
           "version": {
-            "requires": "2.12.0"
+            "requires": "2.19.1"
           }
         },
         {
           "group": "com.google.android.exoplayer",
           "module": "exoplayer-core",
           "version": {
-            "requires": "2.12.0"
+            "requires": "2.19.1"
           }
         },
         {
           "group": "com.google.android.exoplayer",
           "module": "exoplayer-ui",
           "version": {
-            "requires": "2.12.0"
+            "requires": "2.19.1"
           }
         },
         {
           "group": "com.google.guava",
           "module": "guava",
           "version": {
-            "requires": "29.0-android"
+            "requires": "31.1-android"
           }
         },
         {
@@ -91,7 +89,7 @@
           "group": "androidx.work",
           "module": "work-runtime",
           "version": {
-            "requires": "2.4.0"
+            "requires": "2.9.0"
           }
         },
         {
@@ -105,7 +103,7 @@
           "group": "com.google.android.gms",
           "module": "play-services-location",
           "version": {
-            "requires": "17.1.0"
+            "requires": "21.3.0"
           }
         },
         {
@@ -133,7 +131,7 @@
           "group": "androidx.databinding",
           "module": "viewbinding",
           "version": {
-            "requires": "4.1.1"
+            "requires": "8.1.2"
           }
         }
       ],
@@ -141,161 +139,48 @@
         {
           "name": "awakensdk-1.0.aar",
           "url": "awakensdk-1.0.aar",
-          "size": 2254164,
-          "sha512": "c2629f3eb27394d555fcdd9b2dcb471bb4b61555d0df86961492be4295436a6c3bfe7874bdba0711914a403309cc5052af69549bc9def14856d9005668f333da",
-          "sha256": "55105cd7a51ba5f765bcd9b2f574b635aefb87c39e49b2fc13bf39809902ef65",
-          "sha1": "b55cf839d92e1ebcbed34e97425a1864120f9266",
-          "md5": "afcaae1414d3d51a0e05cce717748594"
+          "size": 809405,
+          "sha512": "3990f2b3843504cdc19f4dda8bae71d46c20d4c66502ac65b15a33c1f7c6275550f8a77766a790a2d6f9b997afe32e9a29d1ca0b62d589fcc7e11567f7397f20",
+          "sha256": "7c4fb3fa159099a42629c2bd46949e589c326d5748ae9c1dcf25f105bb8daabe",
+          "sha1": "a8f44218f92f7dd636aebd726fb16737fb3d8725",
+          "md5": "07060abd5398ee8d0cd5aee0e03af398"
         }
       ]
     },
     {
-      "name": "releaseRuntimePublication",
+      "name": "releaseRuntimeElements-published",
       "attributes": {
         "org.gradle.category": "library",
-        "org.gradle.dependency.bundling": "external",
-        "org.gradle.libraryelements": "aar",
-        "org.gradle.usage": "java-runtime"
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
       },
       "dependencies": [
-        {
-          "group": "com.google.android.gms",
-          "module": "play-services-maps",
-          "version": {
-            "requires": "17.0.0"
-          }
-        },
-        {
-          "group": "com.github.bumptech.glide",
-          "module": "glide",
-          "version": {
-            "requires": "4.11.0"
-          }
-        },
-        {
-          "group": "com.amazonaws",
-          "module": "aws-android-sdk-core",
-          "version": {
-            "requires": "2.19.1"
-          }
-        },
-        {
-          "group": "com.amazonaws",
-          "module": "aws-android-sdk-sns",
-          "version": {
-            "requires": "2.19.1"
-          }
-        },
-        {
-          "group": "com.google.android.exoplayer",
-          "module": "exoplayer-dash",
-          "version": {
-            "requires": "2.12.0"
-          }
-        },
-        {
-          "group": "com.google.android.exoplayer",
-          "module": "exoplayer-core",
-          "version": {
-            "requires": "2.12.0"
-          }
-        },
-        {
-          "group": "com.google.android.exoplayer",
-          "module": "exoplayer-ui",
-          "version": {
-            "requires": "2.12.0"
-          }
-        },
-        {
-          "group": "com.google.guava",
-          "module": "guava",
-          "version": {
-            "requires": "29.0-android"
-          }
-        },
-        {
-          "group": "com.firebase",
-          "module": "firebase-jobdispatcher",
-          "version": {
-            "requires": "0.8.5"
-          }
-        },
-        {
-          "group": "androidx.work",
-          "module": "work-runtime",
-          "version": {
-            "requires": "2.4.0"
-          }
-        },
-        {
-          "group": "com.google.firebase",
-          "module": "firebase-messaging",
-          "version": {
-            "requires": "21.0.0"
-          }
-        },
-        {
-          "group": "com.google.android.gms",
-          "module": "play-services-location",
-          "version": {
-            "requires": "17.1.0"
-          }
-        },
-        {
-          "group": "androidx.lifecycle",
-          "module": "lifecycle-runtime-ktx",
-          "version": {
-            "requires": "2.2.0"
-          }
-        },
-        {
-          "group": "androidx.lifecycle",
-          "module": "lifecycle-extensions",
-          "version": {
-            "requires": "2.2.0"
-          }
-        },
-        {
-          "group": "androidx.lifecycle",
-          "module": "lifecycle-service",
-          "version": {
-            "requires": "2.2.0"
-          }
-        },
-        {
-          "group": "androidx.databinding",
-          "module": "viewbinding",
-          "version": {
-            "requires": "4.1.1"
-          }
-        },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-parcelize-runtime",
           "version": {
-            "requires": "1.4.21"
+            "requires": "1.8.0"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "1.4.21"
+            "requires": "1.8.0"
           }
         },
         {
           "group": "androidx.core",
           "module": "core-ktx",
           "version": {
-            "requires": "1.3.2"
+            "requires": "1.9.0"
           }
         },
         {
           "group": "androidx.appcompat",
           "module": "appcompat",
           "version": {
-            "requires": "1.2.0"
+            "requires": "1.7.0"
           }
         },
         {
@@ -323,21 +208,21 @@
           "group": "com.squareup.retrofit2",
           "module": "retrofit",
           "version": {
-            "requires": "2.9.0"
+            "requires": "2.11.0"
           }
         },
         {
           "group": "com.squareup.retrofit2",
           "module": "converter-gson",
           "version": {
-            "requires": "2.9.0"
+            "requires": "2.11.0"
           }
         },
         {
           "group": "com.squareup.okhttp3",
           "module": "okhttp-bom",
           "version": {
-            "requires": "4.9.0"
+            "requires": "4.12.0"
           },
           "attributes": {
             "org.gradle.category": "platform"
@@ -356,7 +241,147 @@
           "group": "androidx.work",
           "module": "work-runtime-ktx",
           "version": {
-            "requires": "2.3.1"
+            "requires": "2.7.1"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-rxjava2",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-rxjava3",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-maps",
+          "version": {
+            "requires": "17.0.0"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.16.0"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-android-sdk-core",
+          "version": {
+            "requires": "2.74.0"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-android-sdk-sns",
+          "version": {
+            "requires": "2.74.0"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-dash",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-core",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-ui",
+          "version": {
+            "requires": "2.19.1"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.1-android"
+          }
+        },
+        {
+          "group": "com.firebase",
+          "module": "firebase-jobdispatcher",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-messaging",
+          "version": {
+            "requires": "21.0.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "21.3.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-extensions",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-service",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.1.2"
           }
         }
       ],
@@ -364,11 +389,11 @@
         {
           "name": "awakensdk-1.0.aar",
           "url": "awakensdk-1.0.aar",
-          "size": 2254164,
-          "sha512": "c2629f3eb27394d555fcdd9b2dcb471bb4b61555d0df86961492be4295436a6c3bfe7874bdba0711914a403309cc5052af69549bc9def14856d9005668f333da",
-          "sha256": "55105cd7a51ba5f765bcd9b2f574b635aefb87c39e49b2fc13bf39809902ef65",
-          "sha1": "b55cf839d92e1ebcbed34e97425a1864120f9266",
-          "md5": "afcaae1414d3d51a0e05cce717748594"
+          "size": 809405,
+          "sha512": "3990f2b3843504cdc19f4dda8bae71d46c20d4c66502ac65b15a33c1f7c6275550f8a77766a790a2d6f9b997afe32e9a29d1ca0b62d589fcc7e11567f7397f20",
+          "sha256": "7c4fb3fa159099a42629c2bd46949e589c326d5748ae9c1dcf25f105bb8daabe",
+          "sha1": "a8f44218f92f7dd636aebd726fb16737fb3d8725",
+          "md5": "07060abd5398ee8d0cd5aee0e03af398"
         }
       ]
     }
