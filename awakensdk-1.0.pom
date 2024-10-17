@@ -30,6 +30,34 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>2.11.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-gson</artifactId>
+      <version>2.11.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.11.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>logging-interceptor</artifactId>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>com.github.bumptech.glide</groupId>
       <artifactId>glide</artifactId>
       <version>4.16.0</version>
@@ -48,21 +76,21 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.google.android.exoplayer</groupId>
-      <artifactId>exoplayer-dash</artifactId>
-      <version>2.19.1</version>
+      <groupId>androidx.media3</groupId>
+      <artifactId>media3-exoplayer</artifactId>
+      <version>1.4.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.google.android.exoplayer</groupId>
-      <artifactId>exoplayer-core</artifactId>
-      <version>2.19.1</version>
+      <groupId>androidx.media3</groupId>
+      <artifactId>media3-exoplayer-dash</artifactId>
+      <version>1.4.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.google.android.exoplayer</groupId>
-      <artifactId>exoplayer-ui</artifactId>
-      <version>2.19.1</version>
+      <groupId>androidx.media3</groupId>
+      <artifactId>media3-ui</artifactId>
+      <version>1.4.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -86,7 +114,7 @@
     <dependency>
       <groupId>com.google.firebase</groupId>
       <artifactId>firebase-messaging</artifactId>
-      <version>21.0.0</version>
+      <version>24.0.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -111,6 +139,36 @@
       <groupId>androidx.lifecycle</groupId>
       <artifactId>lifecycle-service</artifactId>
       <version>2.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.work</groupId>
+      <artifactId>work-runtime-ktx</artifactId>
+      <version>2.7.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.room</groupId>
+      <artifactId>room-runtime</artifactId>
+      <version>2.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.room</groupId>
+      <artifactId>room-ktx</artifactId>
+      <version>2.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.room</groupId>
+      <artifactId>room-rxjava2</artifactId>
+      <version>2.6.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.room</groupId>
+      <artifactId>room-rxjava3</artifactId>
+      <version>2.6.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -159,58 +217,6 @@
       <groupId>androidx.ads</groupId>
       <artifactId>ads-identifier</artifactId>
       <version>1.0.0-alpha04</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.squareup.retrofit2</groupId>
-      <artifactId>retrofit</artifactId>
-      <version>2.11.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.squareup.retrofit2</groupId>
-      <artifactId>converter-gson</artifactId>
-      <version>2.11.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.squareup.okhttp3</groupId>
-      <artifactId>okhttp</artifactId>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.squareup.okhttp3</groupId>
-      <artifactId>logging-interceptor</artifactId>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.work</groupId>
-      <artifactId>work-runtime-ktx</artifactId>
-      <version>2.7.1</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.room</groupId>
-      <artifactId>room-runtime</artifactId>
-      <version>2.6.1</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.room</groupId>
-      <artifactId>room-ktx</artifactId>
-      <version>2.6.1</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.room</groupId>
-      <artifactId>room-rxjava2</artifactId>
-      <version>2.6.1</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>androidx.room</groupId>
-      <artifactId>room-rxjava3</artifactId>
-      <version>2.6.1</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
