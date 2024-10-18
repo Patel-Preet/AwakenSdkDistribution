@@ -11,16 +11,10 @@ To obtain the 3 files open gradle -> publishing -> publishReleasePublicationToMa
 Usuage: 
     implementation 'com.github.Patel-Preet:AwakenSdkDistribution:1.0'
 
-Additional dependencies:
-    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
-    implementation(platform("com.squareup.okhttp3:okhttp-bom:4.9.0"))
-    implementation("com.squareup.okhttp3:logging-interceptor")
-    api 'com.github.bumptech.glide:glide:4.11.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
-    api group: 'com.amazonaws', name: 'aws-android-sdk-sns', version: '2.19.1'
-    api 'com.google.android.exoplayer:exoplayer-ui:2.12.0'
-    api 'com.google.firebase:firebase-messaging:21.0.0'
-    api "com.google.android.gms:play-services-location:17.1.0"
+Automatically import awaken dependencies using POM file using Jitpack
+Source:
+https://stackoverflow.com/a/46866517/10330317
+https://stackoverflow.com/a/67071394/10330317
 
 
 For Jitpack private: https://docs.github.com/en/organizations/restricting-access-to-your-organizations-data/approving-oauth-apps-for-your-organization
