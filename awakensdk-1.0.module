@@ -119,13 +119,6 @@
           }
         },
         {
-          "group": "com.firebase",
-          "module": "firebase-jobdispatcher",
-          "version": {
-            "requires": "0.8.5"
-          }
-        },
-        {
           "group": "androidx.work",
           "module": "work-runtime",
           "version": {
@@ -373,13 +366,6 @@
           "module": "guava",
           "version": {
             "requires": "31.1-android"
-          }
-        },
-        {
-          "group": "com.firebase",
-          "module": "firebase-jobdispatcher",
-          "version": {
-            "requires": "0.8.5"
           }
         },
         {
