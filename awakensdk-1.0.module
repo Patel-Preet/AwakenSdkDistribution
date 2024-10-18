@@ -30,172 +30,6 @@
           }
         },
         {
-          "group": "com.squareup.retrofit2",
-          "module": "retrofit",
-          "version": {
-            "requires": "2.11.0"
-          }
-        },
-        {
-          "group": "com.squareup.retrofit2",
-          "module": "converter-gson",
-          "version": {
-            "requires": "2.11.0"
-          }
-        },
-        {
-          "group": "com.google.code.gson",
-          "module": "gson",
-          "version": {
-            "requires": "2.11.0"
-          }
-        },
-        {
-          "group": "com.squareup.okhttp3",
-          "module": "okhttp-bom",
-          "version": {
-            "requires": "4.12.0"
-          },
-          "attributes": {
-            "org.gradle.category": "platform"
-          },
-          "endorseStrictVersions": true
-        },
-        {
-          "group": "com.squareup.okhttp3",
-          "module": "okhttp"
-        },
-        {
-          "group": "com.squareup.okhttp3",
-          "module": "logging-interceptor"
-        },
-        {
-          "group": "com.github.bumptech.glide",
-          "module": "glide",
-          "version": {
-            "requires": "4.16.0"
-          }
-        },
-        {
-          "group": "com.amazonaws",
-          "module": "aws-android-sdk-core",
-          "version": {
-            "requires": "2.74.0"
-          }
-        },
-        {
-          "group": "com.amazonaws",
-          "module": "aws-android-sdk-sns",
-          "version": {
-            "requires": "2.74.0"
-          }
-        },
-        {
-          "group": "androidx.media3",
-          "module": "media3-exoplayer",
-          "version": {
-            "requires": "1.4.1"
-          }
-        },
-        {
-          "group": "androidx.media3",
-          "module": "media3-exoplayer-dash",
-          "version": {
-            "requires": "1.4.1"
-          }
-        },
-        {
-          "group": "androidx.media3",
-          "module": "media3-ui",
-          "version": {
-            "requires": "1.4.1"
-          }
-        },
-        {
-          "group": "com.google.guava",
-          "module": "guava",
-          "version": {
-            "requires": "31.1-android"
-          }
-        },
-        {
-          "group": "androidx.work",
-          "module": "work-runtime",
-          "version": {
-            "requires": "2.9.0"
-          }
-        },
-        {
-          "group": "com.google.firebase",
-          "module": "firebase-messaging",
-          "version": {
-            "requires": "24.0.1"
-          }
-        },
-        {
-          "group": "com.google.android.gms",
-          "module": "play-services-location",
-          "version": {
-            "requires": "21.3.0"
-          }
-        },
-        {
-          "group": "androidx.lifecycle",
-          "module": "lifecycle-runtime-ktx",
-          "version": {
-            "requires": "2.2.0"
-          }
-        },
-        {
-          "group": "androidx.lifecycle",
-          "module": "lifecycle-extensions",
-          "version": {
-            "requires": "2.2.0"
-          }
-        },
-        {
-          "group": "androidx.lifecycle",
-          "module": "lifecycle-service",
-          "version": {
-            "requires": "2.2.0"
-          }
-        },
-        {
-          "group": "androidx.work",
-          "module": "work-runtime-ktx",
-          "version": {
-            "requires": "2.7.1"
-          }
-        },
-        {
-          "group": "androidx.room",
-          "module": "room-runtime",
-          "version": {
-            "requires": "2.6.1"
-          }
-        },
-        {
-          "group": "androidx.room",
-          "module": "room-ktx",
-          "version": {
-            "requires": "2.6.1"
-          }
-        },
-        {
-          "group": "androidx.room",
-          "module": "room-rxjava2",
-          "version": {
-            "requires": "2.6.1"
-          }
-        },
-        {
-          "group": "androidx.room",
-          "module": "room-rxjava3",
-          "version": {
-            "requires": "2.6.1"
-          }
-        },
-        {
           "group": "androidx.databinding",
           "module": "viewbinding",
           "version": {
@@ -273,13 +107,6 @@
           }
         },
         {
-          "group": "com.google.android.gms",
-          "module": "play-services-maps",
-          "version": {
-            "requires": "17.0.0"
-          }
-        },
-        {
           "group": "com.squareup.retrofit2",
           "module": "retrofit",
           "version": {
@@ -387,6 +214,13 @@
           "module": "play-services-location",
           "version": {
             "requires": "21.3.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-maps",
+          "version": {
+            "requires": "17.0.0"
           }
         },
         {
