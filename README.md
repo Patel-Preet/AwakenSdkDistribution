@@ -6,7 +6,11 @@ https://medium.com/student-beans/publishing-a-library-as-a-aar-package-55ed725fa
 
 Additional doc: Jitpack.yml
 
-To obtain the 3 files open gradle -> publishing -> publishReleasePublicationToMavenLocal -> Files located in ~ [C:\Users\HP\.m2\repository\com\awakenmobile\awakensdk\1.0]
+To obtain the 3 files 
+open gradle -> publishing -> publishReleasePublicationToMavenLocal
+OR
+./gradlew assembleRelease 
+RESULT: Files located in ~ [C:\Users\HP\.m2\repository\com\awakenmobile\awakensdk\1.0]
 
 Usage: 
     implementation 'com.github.Patel-Preet:AwakenSdkDistribution:1.0'
