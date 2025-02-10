@@ -9,7 +9,7 @@ Additional doc: Jitpack.yml
 To obtain the 3 files 
 open gradle -> publishing -> publishReleasePublicationToMavenLocal
 OR
-./gradlew assembleRelease 
+./gradlew publishToMavenLocal 
 RESULT: Files located in ~ [C:\Users\HP\.m2\repository\com\awakenmobile\awakensdk\1.0]
 
 Usage: 
