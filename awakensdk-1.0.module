@@ -41,11 +41,11 @@
         {
           "name": "awakensdk-1.0.aar",
           "url": "awakensdk-1.0.aar",
-          "size": 756476,
-          "sha512": "d8b41284634315daf0fc3f24713b81494938b4c156635b411da76aeb007b93f7cfa10679e196128277bda51257052d94a3a2a7df379eb19f0d1261577b81929f",
-          "sha256": "8541e4d4cdc3f8281c88fa05cc2b5027e0739d1b84496ade936043df03b98e25",
-          "sha1": "471b4769fa9577e0716ab5ccc3794ed0e20b6db9",
-          "md5": "b9ae378736e2c98d50c29b9fa5c2f6bf"
+          "size": 756515,
+          "sha512": "7b3e8067363530936287459261a90753ac34100c97f50563a01853bd1938272edd79e78739f2d13b077662dfd1c43eca13c7a8e04508330b258cf46b37efa444",
+          "sha256": "0f260a087a34e241f781ba12953f2040a2e9c8d75590b42a2a957c74ce743bf3",
+          "sha1": "de03f6523de4d7133a00fc40c93686fef2f3bbd1",
+          "md5": "110f2633d1b04490cfb8c5025207031d"
         }
       ]
     },
@@ -291,11 +291,11 @@
         {
           "name": "awakensdk-1.0.aar",
           "url": "awakensdk-1.0.aar",
-          "size": 756476,
-          "sha512": "d8b41284634315daf0fc3f24713b81494938b4c156635b411da76aeb007b93f7cfa10679e196128277bda51257052d94a3a2a7df379eb19f0d1261577b81929f",
-          "sha256": "8541e4d4cdc3f8281c88fa05cc2b5027e0739d1b84496ade936043df03b98e25",
-          "sha1": "471b4769fa9577e0716ab5ccc3794ed0e20b6db9",
-          "md5": "b9ae378736e2c98d50c29b9fa5c2f6bf"
+          "size": 756515,
+          "sha512": "7b3e8067363530936287459261a90753ac34100c97f50563a01853bd1938272edd79e78739f2d13b077662dfd1c43eca13c7a8e04508330b258cf46b37efa444",
+          "sha256": "0f260a087a34e241f781ba12953f2040a2e9c8d75590b42a2a957c74ce743bf3",
+          "sha1": "de03f6523de4d7133a00fc40c93686fef2f3bbd1",
+          "md5": "110f2633d1b04490cfb8c5025207031d"
         }
       ]
     }
