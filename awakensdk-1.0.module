@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.0"
+      "version": "8.10.2"
     }
   },
   "variants": [
@@ -33,7 +33,7 @@
           "group": "androidx.databinding",
           "module": "viewbinding",
           "version": {
-            "requires": "8.1.2"
+            "requires": "8.8.0"
           }
         }
       ],
@@ -41,11 +41,11 @@
         {
           "name": "awakensdk-1.0.aar",
           "url": "awakensdk-1.0.aar",
-          "size": 756754,
-          "sha512": "08ac50c528aa4b45a31928d0e4a609268521af71021ed99945d3feb56ca6620cb4b5b46c6fbbdde50569745de5c683f992d3fb914edfc887663e8cd9df8042d5",
-          "sha256": "a2dd81e9f9774b0270e3e450d33b1575f25e48d871a3ff7f51155701f264b259",
-          "sha1": "140c448173487397a08acf887fb9e172c0c80111",
-          "md5": "bffed80c37f9f328bba1e92469b80cae"
+          "size": 814368,
+          "sha512": "4e704a3a980d54ca6f1aa6f59d3417961e1a55c82471bab96ce8a2d3754a7fbd5bc3dfd9a6a4b605c926d35cf0b7aef292a58ceee93a3af219e9522726a17618",
+          "sha256": "c67f37827d0a54a9045b73a01829af40f7242d8800880eb7f64be06e36408834",
+          "sha1": "0c6206a6af19f63b1d682eaec2a8b9536ca5e44c",
+          "md5": "6b03bb469a2bcf6e9fd6843457d661e7"
         }
       ]
     },
@@ -61,14 +61,14 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-parcelize-runtime",
           "version": {
-            "requires": "1.8.0"
+            "requires": "1.9.24"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "1.8.0"
+            "requires": "1.9.24"
           }
         },
         {
@@ -171,21 +171,21 @@
           "group": "androidx.media3",
           "module": "media3-exoplayer",
           "version": {
-            "requires": "1.4.1"
+            "requires": "1.5.1"
           }
         },
         {
           "group": "androidx.media3",
           "module": "media3-exoplayer-dash",
           "version": {
-            "requires": "1.4.1"
+            "requires": "1.5.1"
           }
         },
         {
           "group": "androidx.media3",
           "module": "media3-ui",
           "version": {
-            "requires": "1.4.1"
+            "requires": "1.5.1"
           }
         },
         {
@@ -283,7 +283,7 @@
           "group": "androidx.databinding",
           "module": "viewbinding",
           "version": {
-            "requires": "8.1.2"
+            "requires": "8.8.0"
           }
         }
       ],
@@ -291,11 +291,33 @@
         {
           "name": "awakensdk-1.0.aar",
           "url": "awakensdk-1.0.aar",
-          "size": 756754,
-          "sha512": "08ac50c528aa4b45a31928d0e4a609268521af71021ed99945d3feb56ca6620cb4b5b46c6fbbdde50569745de5c683f992d3fb914edfc887663e8cd9df8042d5",
-          "sha256": "a2dd81e9f9774b0270e3e450d33b1575f25e48d871a3ff7f51155701f264b259",
-          "sha1": "140c448173487397a08acf887fb9e172c0c80111",
-          "md5": "bffed80c37f9f328bba1e92469b80cae"
+          "size": 814368,
+          "sha512": "4e704a3a980d54ca6f1aa6f59d3417961e1a55c82471bab96ce8a2d3754a7fbd5bc3dfd9a6a4b605c926d35cf0b7aef292a58ceee93a3af219e9522726a17618",
+          "sha256": "c67f37827d0a54a9045b73a01829af40f7242d8800880eb7f64be06e36408834",
+          "sha1": "0c6206a6af19f63b1d682eaec2a8b9536ca5e44c",
+          "md5": "6b03bb469a2bcf6e9fd6843457d661e7"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "awakensdk-1.0-sources.jar",
+          "url": "awakensdk-1.0-sources.jar",
+          "size": 108723,
+          "sha512": "2448e5698abc61dda08619596dfb0a94f242382a63492bfb21bbaa4411eee2e2f50a7ff7ac90cd8c1f489a3f9be6b7e0f860200281936aa693f22b993a26a015",
+          "sha256": "a448a3f66d1e446cf2778b78650fd344bce6df03686c8aba10e2334733437433",
+          "sha1": "04d20e71036ad12429b36d67013037bd68ab9d9c",
+          "md5": "d29b000f4da633b78e5e910b6a1cae06"
         }
       ]
     }
