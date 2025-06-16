@@ -41,11 +41,11 @@
         {
           "name": "awakensdk-1.0.aar",
           "url": "awakensdk-1.0.aar",
-          "size": 814368,
-          "sha512": "4e704a3a980d54ca6f1aa6f59d3417961e1a55c82471bab96ce8a2d3754a7fbd5bc3dfd9a6a4b605c926d35cf0b7aef292a58ceee93a3af219e9522726a17618",
-          "sha256": "c67f37827d0a54a9045b73a01829af40f7242d8800880eb7f64be06e36408834",
-          "sha1": "0c6206a6af19f63b1d682eaec2a8b9536ca5e44c",
-          "md5": "6b03bb469a2bcf6e9fd6843457d661e7"
+          "size": 812045,
+          "sha512": "96c4508ff195b2425a690c1105adf6afc4116fd32fc02824e603cf0aba94862449f46971af820e2ea11b277e72b4d3a0e7022561b84609970c61ce3585102e3c",
+          "sha256": "be165049268204a7f5da8d0076ee780cd9cafda0d5a27ea6a68a29d8c31173b2",
+          "sha1": "23efae192e008b347d5c150ae8f3aae530b1c8b2",
+          "md5": "4148d2c932fab1ad1b868e673fa3e06f"
         }
       ]
     },
@@ -189,6 +189,13 @@
           }
         },
         {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-hls",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
           "group": "com.google.guava",
           "module": "guava",
           "version": {
@@ -291,11 +298,11 @@
         {
           "name": "awakensdk-1.0.aar",
           "url": "awakensdk-1.0.aar",
-          "size": 814368,
-          "sha512": "4e704a3a980d54ca6f1aa6f59d3417961e1a55c82471bab96ce8a2d3754a7fbd5bc3dfd9a6a4b605c926d35cf0b7aef292a58ceee93a3af219e9522726a17618",
-          "sha256": "c67f37827d0a54a9045b73a01829af40f7242d8800880eb7f64be06e36408834",
-          "sha1": "0c6206a6af19f63b1d682eaec2a8b9536ca5e44c",
-          "md5": "6b03bb469a2bcf6e9fd6843457d661e7"
+          "size": 812045,
+          "sha512": "96c4508ff195b2425a690c1105adf6afc4116fd32fc02824e603cf0aba94862449f46971af820e2ea11b277e72b4d3a0e7022561b84609970c61ce3585102e3c",
+          "sha256": "be165049268204a7f5da8d0076ee780cd9cafda0d5a27ea6a68a29d8c31173b2",
+          "sha1": "23efae192e008b347d5c150ae8f3aae530b1c8b2",
+          "md5": "4148d2c932fab1ad1b868e673fa3e06f"
         }
       ]
     },
@@ -313,11 +320,11 @@
         {
           "name": "awakensdk-1.0-sources.jar",
           "url": "awakensdk-1.0-sources.jar",
-          "size": 108723,
-          "sha512": "2448e5698abc61dda08619596dfb0a94f242382a63492bfb21bbaa4411eee2e2f50a7ff7ac90cd8c1f489a3f9be6b7e0f860200281936aa693f22b993a26a015",
-          "sha256": "a448a3f66d1e446cf2778b78650fd344bce6df03686c8aba10e2334733437433",
-          "sha1": "04d20e71036ad12429b36d67013037bd68ab9d9c",
-          "md5": "d29b000f4da633b78e5e910b6a1cae06"
+          "size": 131021,
+          "sha512": "a54bc5d7c57f7ae0a5577fdde3ec3cd118a08cb54734588d47655b0953cbdd73854c239df9aa799817e086d0301629d729ef3911f2a76fb8bd0a227378ea1187",
+          "sha256": "4fb9e6d5c373f9adb9e9eef6ccb5328d6ffc24a99eac4ef4da6b4e09ef8cf6e8",
+          "sha1": "582b4bbc7ca9a3bc8dd998dc761d403e99479397",
+          "md5": "c5b72d1230fe8aa956c9c3729bfa4f02"
         }
       ]
     }
