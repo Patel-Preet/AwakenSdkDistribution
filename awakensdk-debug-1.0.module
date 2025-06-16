@@ -2,7 +2,7 @@
   "formatVersion": "1.1",
   "component": {
     "group": "com.awakenmobile",
-    "module": "awakensdk",
+    "module": "awakensdk-debug",
     "version": "1.0",
     "attributes": {
       "org.gradle.status": "release"
@@ -15,8 +15,9 @@
   },
   "variants": [
     {
-      "name": "releaseApiElements-published",
+      "name": "debugApiElements-published",
       "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
         "org.gradle.category": "library",
         "org.gradle.usage": "java-api",
         "org.jetbrains.kotlin.platform.type": "androidJvm"
@@ -39,19 +40,20 @@
       ],
       "files": [
         {
-          "name": "awakensdk-1.0.aar",
-          "url": "awakensdk-1.0.aar",
-          "size": 812045,
-          "sha512": "96c4508ff195b2425a690c1105adf6afc4116fd32fc02824e603cf0aba94862449f46971af820e2ea11b277e72b4d3a0e7022561b84609970c61ce3585102e3c",
-          "sha256": "be165049268204a7f5da8d0076ee780cd9cafda0d5a27ea6a68a29d8c31173b2",
-          "sha1": "23efae192e008b347d5c150ae8f3aae530b1c8b2",
-          "md5": "4148d2c932fab1ad1b868e673fa3e06f"
+          "name": "awakensdk-debug-1.0.aar",
+          "url": "awakensdk-debug-1.0.aar",
+          "size": 994574,
+          "sha512": "a6c36d582f92fbd63ee65a41a68d94881cdc284e6d3cec5b05f8d76c3dc73b4622fa57bd26625b8fe33a322d05f072e133a6076e0cdcece597418ed67b35cae2",
+          "sha256": "4b08195cb20fd6810d4fccaa05d25194da48ecea324157a1694156faa5d47201",
+          "sha1": "9c03599211eda3fa10f8a46158d90af8e327eee5",
+          "md5": "ee872763147261a30315a832e525b47f"
         }
       ]
     },
     {
-      "name": "releaseRuntimeElements-published",
+      "name": "debugRuntimeElements-published",
       "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
         "org.gradle.category": "library",
         "org.gradle.usage": "java-runtime",
         "org.jetbrains.kotlin.platform.type": "androidJvm"
@@ -296,19 +298,20 @@
       ],
       "files": [
         {
-          "name": "awakensdk-1.0.aar",
-          "url": "awakensdk-1.0.aar",
-          "size": 812045,
-          "sha512": "96c4508ff195b2425a690c1105adf6afc4116fd32fc02824e603cf0aba94862449f46971af820e2ea11b277e72b4d3a0e7022561b84609970c61ce3585102e3c",
-          "sha256": "be165049268204a7f5da8d0076ee780cd9cafda0d5a27ea6a68a29d8c31173b2",
-          "sha1": "23efae192e008b347d5c150ae8f3aae530b1c8b2",
-          "md5": "4148d2c932fab1ad1b868e673fa3e06f"
+          "name": "awakensdk-debug-1.0.aar",
+          "url": "awakensdk-debug-1.0.aar",
+          "size": 994574,
+          "sha512": "a6c36d582f92fbd63ee65a41a68d94881cdc284e6d3cec5b05f8d76c3dc73b4622fa57bd26625b8fe33a322d05f072e133a6076e0cdcece597418ed67b35cae2",
+          "sha256": "4b08195cb20fd6810d4fccaa05d25194da48ecea324157a1694156faa5d47201",
+          "sha1": "9c03599211eda3fa10f8a46158d90af8e327eee5",
+          "md5": "ee872763147261a30315a832e525b47f"
         }
       ]
     },
     {
-      "name": "releaseSourcesElements-published",
+      "name": "debugSourcesElements-published",
       "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
         "org.gradle.category": "documentation",
         "org.gradle.dependency.bundling": "external",
         "org.gradle.docstype": "sources",
@@ -318,8 +321,8 @@
       },
       "files": [
         {
-          "name": "awakensdk-1.0-sources.jar",
-          "url": "awakensdk-1.0-sources.jar",
+          "name": "awakensdk-debug-1.0-sources.jar",
+          "url": "awakensdk-debug-1.0-sources.jar",
           "size": 131021,
           "sha512": "a54bc5d7c57f7ae0a5577fdde3ec3cd118a08cb54734588d47655b0953cbdd73854c239df9aa799817e086d0301629d729ef3911f2a76fb8bd0a227378ea1187",
           "sha256": "4fb9e6d5c373f9adb9e9eef6ccb5328d6ffc24a99eac4ef4da6b4e09ef8cf6e8",

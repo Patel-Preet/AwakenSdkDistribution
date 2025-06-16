@@ -8,7 +8,7 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.awakenmobile</groupId>
-  <artifactId>awakensdk</artifactId>
+  <artifactId>awakensdk-debug</artifactId>
   <version>1.0</version>
   <packaging>aar</packaging>
   <dependencyManagement>
