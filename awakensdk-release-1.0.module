@@ -41,11 +41,11 @@
         {
           "name": "awakensdk-release-1.0.aar",
           "url": "awakensdk-release-1.0.aar",
-          "size": 1051399,
-          "sha512": "6c00ef4ec77fd963f7593432e8f3a58705b8313c9ffae00d8d1c4e64dcaab949728d74849c36d36d3b8493ed9e3482a721bb5bfca032603623b7446dfc0ed014",
-          "sha256": "9d401fa90d65bb6e1eefc6a670033db04b59772ec1ee02588a87b193cb2a04bd",
-          "sha1": "b81c1b1aacb757541cc0512a0bb6e36cf2068ebb",
-          "md5": "f2958b15b970db674f3ffcb43f04ccc0"
+          "size": 1050902,
+          "sha512": "44d746f41ad634845ab92dcd208edbde4802d9373fe0d65b965ed08d902fe142325a0553301857cc3ef8be42030d08856a52244a66f37e21752ad12531001d3e",
+          "sha256": "d6fbe799d9673ac8c95a98b8be75ffc547d9a90a83394b40a1570ca4f2ea96eb",
+          "sha1": "b887bec146c93fcc90a64886b0baf8035a56c6ce",
+          "md5": "010ca749778d40091d2aea75adb881a0"
         }
       ]
     },
@@ -298,11 +298,11 @@
         {
           "name": "awakensdk-release-1.0.aar",
           "url": "awakensdk-release-1.0.aar",
-          "size": 1051399,
-          "sha512": "6c00ef4ec77fd963f7593432e8f3a58705b8313c9ffae00d8d1c4e64dcaab949728d74849c36d36d3b8493ed9e3482a721bb5bfca032603623b7446dfc0ed014",
-          "sha256": "9d401fa90d65bb6e1eefc6a670033db04b59772ec1ee02588a87b193cb2a04bd",
-          "sha1": "b81c1b1aacb757541cc0512a0bb6e36cf2068ebb",
-          "md5": "f2958b15b970db674f3ffcb43f04ccc0"
+          "size": 1050902,
+          "sha512": "44d746f41ad634845ab92dcd208edbde4802d9373fe0d65b965ed08d902fe142325a0553301857cc3ef8be42030d08856a52244a66f37e21752ad12531001d3e",
+          "sha256": "d6fbe799d9673ac8c95a98b8be75ffc547d9a90a83394b40a1570ca4f2ea96eb",
+          "sha1": "b887bec146c93fcc90a64886b0baf8035a56c6ce",
+          "md5": "010ca749778d40091d2aea75adb881a0"
         }
       ]
     },
@@ -320,11 +320,11 @@
         {
           "name": "awakensdk-release-1.0-sources.jar",
           "url": "awakensdk-release-1.0-sources.jar",
-          "size": 150235,
-          "sha512": "629cf1b9de3cec1b7f7e6c4bd78b6c7281370b98fdc6ec7721179f7142e54147471e0e4be33166acc363434ef48772ef6687245d337ca3f2a8010095f38c6f5b",
-          "sha256": "16599f807588615dad99eb74f96b60339643679cfe2d010ea38772e9a6449f13",
-          "sha1": "14ee7d6ba76e84157883f31b754206af6a159ca4",
-          "md5": "0e440392074156903162db1ca097dc56"
+          "size": 150819,
+          "sha512": "bfbad74a7a96e707e8e3182160b468cc3a5af847b66ad43e4c0f5559c2ff51e91d5ea7c52091b6ff08b942b61c9860385ae475f008fd9932699db4adc27e30a8",
+          "sha256": "707857efefce606a02c3e91a65eba7a771e6df6e4a588790cf0b08c7f682a694",
+          "sha1": "f22274ef1a73ae76c30aafb319cf791922f63589",
+          "md5": "b4191259949ab04341c2220afc806773"
         }
       ]
     }
