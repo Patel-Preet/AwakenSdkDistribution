@@ -320,11 +320,11 @@
         {
           "name": "awakensdk-release-1.0-sources.jar",
           "url": "awakensdk-release-1.0-sources.jar",
-          "size": 150819,
-          "sha512": "bfbad74a7a96e707e8e3182160b468cc3a5af847b66ad43e4c0f5559c2ff51e91d5ea7c52091b6ff08b942b61c9860385ae475f008fd9932699db4adc27e30a8",
-          "sha256": "707857efefce606a02c3e91a65eba7a771e6df6e4a588790cf0b08c7f682a694",
-          "sha1": "f22274ef1a73ae76c30aafb319cf791922f63589",
-          "md5": "b4191259949ab04341c2220afc806773"
+          "size": 150727,
+          "sha512": "85884437be7f593b890d4df2c55781edb724d65fc4096bc2c3310af4d8813daa2f7c0f6bb644d38e621e37e22e5f01177a588782ae9efe4c33fc9a694d0602c8",
+          "sha256": "26625ccfd60b0bd4b1389fded5b9ff2d59546fc930b3ca96884ad118a77d2eac",
+          "sha1": "96055555ef66b8af5b6e25692264885808dfc3ab",
+          "md5": "313451790ea32c7e9c86ec7d9d9801e9"
         }
       ]
     }
