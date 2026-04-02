@@ -41,11 +41,11 @@
         {
           "name": "awakensdk-release-1.0.aar",
           "url": "awakensdk-release-1.0.aar",
-          "size": 1055940,
-          "sha512": "777567f452eaa7d42d915aca84c0fcd689e13efd8d0d789b630bcd3554e8c8d6f59a262b272a2eee28f04d3d11334dcad9d68e302f8a2ccd46ea47684afeca9d",
-          "sha256": "fd2eae373ee90c82f40f551b65d3facc63231d7f15b80fdb486b971318794486",
-          "sha1": "299f90a69cff024b9a3e2a0880588dd55e955220",
-          "md5": "5afb3b2e93c20f3478f4da4a8eaee86e"
+          "size": 1089578,
+          "sha512": "644245683d67f8a4f4491258911a8a13d503f00445c3c8ca2cac37a67a0fd6eff7c918e13562f24517adc9e763c0a38650cbd88400d19defdc239f4d18b0416a",
+          "sha256": "f38982e6a71abc30031c8da0f2286de6e75843156431510ccd0dff2829f53dab",
+          "sha1": "7226e1fb240b2ce56a52f1d4eef851160213e082",
+          "md5": "fa678aa9731f966bbb199959b7dc7e2e"
         }
       ]
     },
@@ -298,11 +298,11 @@
         {
           "name": "awakensdk-release-1.0.aar",
           "url": "awakensdk-release-1.0.aar",
-          "size": 1055940,
-          "sha512": "777567f452eaa7d42d915aca84c0fcd689e13efd8d0d789b630bcd3554e8c8d6f59a262b272a2eee28f04d3d11334dcad9d68e302f8a2ccd46ea47684afeca9d",
-          "sha256": "fd2eae373ee90c82f40f551b65d3facc63231d7f15b80fdb486b971318794486",
-          "sha1": "299f90a69cff024b9a3e2a0880588dd55e955220",
-          "md5": "5afb3b2e93c20f3478f4da4a8eaee86e"
+          "size": 1089578,
+          "sha512": "644245683d67f8a4f4491258911a8a13d503f00445c3c8ca2cac37a67a0fd6eff7c918e13562f24517adc9e763c0a38650cbd88400d19defdc239f4d18b0416a",
+          "sha256": "f38982e6a71abc30031c8da0f2286de6e75843156431510ccd0dff2829f53dab",
+          "sha1": "7226e1fb240b2ce56a52f1d4eef851160213e082",
+          "md5": "fa678aa9731f966bbb199959b7dc7e2e"
         }
       ]
     },
